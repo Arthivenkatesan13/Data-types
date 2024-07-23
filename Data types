@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int n=s.nextInt();
+        System.out.println("Integer is "+n);
+        float n2=s.nextFloat();
+        System.out.println("Float is "+n2);
+        char n3=s.next().charAt(0);
+        System.out.println("Character is "+n3);
+        String n4=s.next();       
+        s.nextLine();
+        String n5=s.nextLine();
+        System.out.print("Strings are "+n4+" and "+n5);
+
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
